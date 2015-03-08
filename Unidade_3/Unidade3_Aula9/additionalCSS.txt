@@ -1,0 +1,20 @@
+panel panel-default
+panel-heading
+panel-body
+
+thumbnail
+caption
+
+<div class="clearfix visible-xs visible-lg"></div>
+
+ <div class="clearfix visible-md visible-xs"></div>
+
+
+.panel-default {
+    border-color: #3F2B22;
+}
+.panel-default > .panel-heading {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #fff;
+}
