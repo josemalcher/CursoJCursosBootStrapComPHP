@@ -1,0 +1,10 @@
+.breadcrumb > li + li:before {
+  content: none;
+}
+
+
+ <ol class="breadcrumb">
+              <li><a href="#">Home</a> <span class="glyphicon glyphicon-circle-arrow-right"></span></li>
+              <li><a href="#">Services</a> <span class="glyphicon glyphicon-circle-arrow-right"></span></li>
+              <li class="active">Vaccinations</li>
+</ol>
